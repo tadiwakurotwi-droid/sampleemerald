@@ -1,0 +1,6 @@
+{
+  "name": "Emerald Climate Hub",
+  "description": "Youth-led climate organization in Zimbabwe empowering climate innovation, sustainable energy, and community resilience.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

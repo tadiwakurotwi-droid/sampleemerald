@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Playfair Display', 'Lora', serif;
+    --font-sans: 'Plus Jakarta Sans', sans-serif;
+    --font-tag: 'Montserrat', sans-serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    color: #1a221d;
+    background-color: #fbfdfc;
+  }
+
+  h1, h2, h3, .font-serif-heading {
+    font-family: var(--font-serif);
+  }
+
+  .font-tag {
+    font-family: var(--font-tag);
+  }
+}
+
+/* Custom subtle scrollbar and glass effect */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f2;
+}
+::-webkit-scrollbar-thumb {
+  background: #a8cdb6;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #2d8a6e;
+}
